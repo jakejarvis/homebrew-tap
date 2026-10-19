@@ -20,9 +20,7 @@ cask "clicker" do
   uninstall quit: "com.jakejarvis.Clicker"
 
   zap trash: [
-    "~/Library/Application Support/Clicker",
-    "~/Library/Caches/com.jakejarvis.Clicker",
-    "~/Library/HTTPStorages/com.jakejarvis.Clicker",
-    "~/Library/Preferences/com.jakejarvis.Clicker.plist",
+    "~/Library/Application Scripts/com.jakejarvis.Clicker",
+    "~/Library/Containers/com.jakejarvis.Clicker",
   ]
 end
