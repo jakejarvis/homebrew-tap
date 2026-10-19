@@ -1,6 +1,7 @@
+# Written by the release workflow in jakejarvis/Clicker; edit it there.
 cask "clicker" do
-  version "0.2.11"
-  sha256 "4b01b326cf9183bab06e4867854520f86e07e5f69642514142cd5afa364de1aa"
+  version "0.3.0"
+  sha256 "21960cd494ba87132f8079ea99c09c1601638777e16b96580d9c7f38d43aa6cb"
 
   url "https://github.com/jakejarvis/Clicker/releases/download/v#{version}/Clicker-#{version}.dmg"
   name "Clicker"
@@ -20,9 +21,7 @@ cask "clicker" do
   uninstall quit: "com.jakejarvis.Clicker"
 
   zap trash: [
-    "~/Library/Application Support/Clicker",
-    "~/Library/Caches/com.jakejarvis.Clicker",
-    "~/Library/HTTPStorages/com.jakejarvis.Clicker",
-    "~/Library/Preferences/com.jakejarvis.Clicker.plist",
+    "~/Library/Application Scripts/com.jakejarvis.Clicker",
+    "~/Library/Containers/com.jakejarvis.Clicker",
   ]
 end
