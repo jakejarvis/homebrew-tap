@@ -1,7 +1,7 @@
 # Written by the release workflow in jakejarvis/Clicker; edit it there.
 cask "clicker" do
-  version "0.3.9"
-  sha256 "8c65603d1970de0dbaefb8f54f919b5a9cc4a5ae99bfa4db009b59f05c72ba4c"
+  version "0.3.10"
+  sha256 "f4abb561a9519010933798eeefd1288f743dec8be2f5942b25de8697533a223c"
 
   url "https://github.com/jakejarvis/Clicker/releases/download/v#{version}/Clicker-#{version}.dmg"
   name "Clicker"
